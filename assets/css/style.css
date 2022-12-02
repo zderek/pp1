@@ -66,7 +66,7 @@ li.active {background-color: var(--grey);}
   table td:last-child {border-bottom: 0;}  
 }
 @media (min-width: 768px) {
-  .nav{max-height: none;top: 0;position: relative;float: right;width: fit-content;background-color: transparent;}
+  .nav{max-height: none;top: 0;position: relative;float: right;width: fit-content;background-color: transparent;margin-right: 2em;}
   footer a {float: left; width:20%; margin: 0 auto;}
   .menu li{float: left;}
   .menu a:hover{background-color: transparent;color: var(--grey);}
