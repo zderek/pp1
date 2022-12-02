@@ -31,13 +31,13 @@ footer a {float: left; width:100%; margin: 0 auto;}
 h2, .main-content {margin: 1em;line-height: 1.5em;}
 form > div {clear: both;overflow: hidden;padding: 1em;margin: 0 0 2em 0;}
 form > div > fieldset > div > div {margin: 0 0 1em 0;}
-form > div > label{width: 24%;float: left;padding-right: 2em;}
+form > div > label{width: 24%;float: left;}
 form > div > div,form > div > fieldset > div {width: 75%;float: right;}
 fieldset {border: 0;padding: 0;}
 input[type=text],input[type=email],textarea {width: 100%;border-top: 1px solid var(--grey);border-left: 1px solid #ccc;border-right: 1px solid #eee;border-bottom: 1px solid #eee;}
 input[type=text],input[type=email],textarea {width: 45%;}
 input[type=text]:focus,input[type=email]:focus,textarea:focus {outline: 0;border-color: var(--grey);}
-table {border: 1px solid var(--white); border-collapse: collapse; margin: 0; padding: 0; width: 100%; table-layout: fixed;}
+table {border: 1px solid var(--white); border-collapse: collapse; margin: 1em auto; padding: 0; width: 80%; table-layout: fixed;}
 table caption {font-size: 1.5em; margin: .5em 0 .75em;}
 table tr {background-color: var(--white); border: 1px solid var(--grey); padding: .35em;}
 table th, table td {padding: .625em; text-align: center;}
@@ -57,7 +57,7 @@ li.active {background-color: var(--grey);}
   form > div > label{width: 100%;float: none;margin: 0 0 5px 0;}
   form > div > div,form > div > fieldset > div {width: 100%;float: none;}
   input[type=text],input[type=email],textarea {width: 100%;}
-  table {border: 0;}
+  table {border: 0; width:100%;}
   table caption {font-size: 1.3em;}
   table thead {border: none;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
   table tr {border-bottom: 3px solid var(--white);display: block;margin-bottom: .625em;}
