@@ -3,48 +3,62 @@
 <head>
 	<meta charset="utf-8">
 	<title>My Artisan Bakery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="assets/css/style.css" rel="stylesheet" />
 </head>
+
 <body>
-	<div class="sticky topNav">
-		<nav class="">
-
-		</nav>
-
-	</div>
-
-	<section class="content">
-		<dl>
-			<dt>0</dt>
-			<dd>Start on top and around you go. That's how you make a zero!
-		  </dd>
-			<dt>1</dt>
-			<dd>Go straight down and then you're done. That's the way to make a one.</dd>
-			<dt>2</dt>
-			<dd>Make a candy cane and then a shoe. That's the way to make a two!</dd>
-			<dt>3</dt>
-			<dd>Around a tree. Around a tree. That's the way to make a three!</dd>
-			<dt>4</dt>
-			<dd>Down, across, and down some more. That is how you make a four!</dd>
-			<dt>5</dt>
-			<dd>Take a drive. Swim around. To make a five come back to the ground.</dd>
-			<dt>6</dt>
-			<dd>Slide down and around to pick up sticks. That is the way to make a six.</dd>
-			<dt>7</dt>
-			<dd>Straight across and down from heaven. That is how you make a seven!</dd>
-			<dt>8</dt>
-			<dd>Make an S but don't just wait. Come back up to make an eight!</dd>
-			<dt>9</dt>
-			<dd>Make a loop and then a line. That's the way to make a nine!</dd>
-		  </dl>
-	</section>
-	<div class="sticky footer">
-		<footer class="">
-
-		</footer>
-
-	</div>
+    <header class="header">
+        <a href="/index.html" class="logo">
+			<img src="assets/images/wheat.svg" id="logo-small" alt="The Artisan Bakery" /> 
+			<span>The Artisan Bakery</span>
+		</a>
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <ul class="menu">
+				<li class="active"><a href="/index.html">Home</a></li>
+				<li><a href="/nutrition.html">Nutrition table</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+		<article>
+			<h2>Our story</h2>
+			<p class="main-content">
+				Please find ourt story in few images below.<br />
+				This page is to show responsiveness with css only (no javascript is being used).<br />
+				<i>Please be advised that number of breakpoints has been set only to show idea of responsiveness.</i>
+			</p>
+			<div class="cards">
+				<div class="card" id="card1">
+					<h4>Beggining</h4>
+					<p>Our history begins in late XIX century, when local mill owner has decided to open a bakery.</p>
+					<p>First bakery and shop were located in a strict city center, just beside a Town Hall.</p>
+					<p><a href="https://www.freepik.com/free-photo/beautiful-old-city-view_1278431.htm#query=old%20building&position=8&from_view=search&track=sph">Image by 4045</a> on Freepik<br /></p>
+				</div>
+				<div class="card" id="card2"><img src="assets/images/card1.jpg" alt="At the beginning" /></div>
+				<div class="card" id="card4"><img src="assets/images/card2.jpg" alt="Premier quality" /></div>
+				<div class="card" id="card3">
+					<h4>No compromises</h4>
+					<p>Since this day our family feels responsible for making <strong>real</strong> food.</p>
+					<p>There is no room for any artifical igredients.</p>
+					<p>Our bread and pastries are made with fresh, locally sourced water, yast and flour from own mill.</p>
+					<p><a href="https://www.freepik.com/free-photo/men-s-hands-cut-homemade-freshly-baked-dark-bread-wooden-cutting-board-background-old-brown-table_26093561.htm#query=old%20bakery&position=49&from_view=search&track=sph">Image by Yaroslav Danylchenko</a> on Freepik</p>
+				</div>
+			  </div>
+		</article>
+    </main>
+	<footer>
+		<ul>
+			<li class="hide-small"><a href="#">About us</a></li>
+			<li class="hide-small"><a href="#">Privacy Policy</a></li>
+			<li class="hide-small"><a href="#">Contact us</a></li>
+			<li><a href="#">Shop now</a></li>
+		</ul>
+	</footer>
 </body>
 </html>
