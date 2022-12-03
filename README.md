@@ -2,6 +2,7 @@
 Portfolio Project 1
 
 Only technologies used are HTML/CSS only (no js)
+Credits to necolas (https://github.com/necolas/normalize.css) for normalize.css
 
 Images are taken from freepik
 Favicons are generated at https://favicon.io/
